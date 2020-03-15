@@ -18,6 +18,7 @@ namespace LogParserApi.WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.Configure<Program>(Configuration.GetSection(""));
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
