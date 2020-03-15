@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LogParserApi.Core {
+namespace LogParserApi.Parsers {
     public class Class1 {
     }
 }

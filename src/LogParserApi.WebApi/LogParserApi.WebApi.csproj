@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\LogParserApi.Core\LogParserApi.Core.csproj" />
+    <ProjectReference Include="..\LogParserApi.Parsers\LogParserApi.Parsers.csproj" />
   </ItemGroup>
 
 
