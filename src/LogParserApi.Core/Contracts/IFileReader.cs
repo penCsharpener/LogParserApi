@@ -1,9 +1,9 @@
-﻿using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace LogParserApi.Core.Contracts
 {
     public interface IFileReader
     {
-        Task<string[]> ReadLinesAsync(string fullFilePath);
+        IAsyncEnumerable<string> ReadLinesAsync(string fullFilePath);
     }
 }
